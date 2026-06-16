@@ -1,0 +1,153 @@
+/* Reset and base styles */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #121212;
+	color: #e0e0e0;
+	font-family: 'Lucida Console', monospace;
+	line-height: 1.4;
+	font-size: 16px;
+}
+
+/* Container */
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+/* Header */
+header {
+	margin-bottom: 30px;
+}
+
+.subtitle {
+	font-size: 1.1em;
+	color: #a0a0a0;
+	margin-bottom: 0;
+}
+
+/* Navigation */
+nav {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #333;
+}
+
+nav a {
+	color: #e0e0e0;
+	/* text-decoration: none; */
+	margin: 0 5px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Main content */
+main {
+	margin-bottom: 40px;
+}
+
+section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* Typography */
+h1 {
+	font-weight: bold;
+	font-size: 2.5em;
+	/* margin-bottom: 20px; */
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-bottom: 15px;
+	/* margin-top: 10px; */
+}
+
+h3 {
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+	margin-left: 20px;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+/* Links */
+a {
+	color: #66b3ff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #99ccff;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #333;
+	margin: 40px 0;
+}
+
+.tag {
+	display: inline-block;
+	background-color: #2a2a2a;
+	color: #e0e0e0;
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-size: 0.85em;
+	margin-top: 6px;
+	margin-right: 5px;
+	margin-bottom: 4px;
+	border: 1px solid #444;
+}
+
+.authors {
+	color: #a0a0a0;
+	font-style: italic;
+}
+
+.venue {
+	color: #b0b0b0;
+	font-size: 0.9em;
+}
+
+.ascii-art {
+	font-family: monospace;
+	white-space: pre;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+	.container {
+		padding: 20px 15px;
+	}
+
+	header h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	nav {
+		font-size: 0.9em;
+	}
+}
