@@ -1,2 +1,2 @@
-# fredalex6.github.io
-My very own personal website
+# Personal website
+Visit my website here: https://fredalex6.github.io/
